@@ -1,5 +1,5 @@
-let Jasmine = require('jasmine');
-let jasmine = new Jasmine();
+const Jasmine = require('jasmine');
+const jasmine = new Jasmine();
 
 jasmine.loadConfig({
   spec_dir: 'spec',
